@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'djcelery',
     'trader',
     'ticker',
+    'chart',
 )
 
 MIDDLEWARE_CLASSES = (

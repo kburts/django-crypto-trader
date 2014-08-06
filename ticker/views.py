@@ -12,3 +12,6 @@ class IndexView(TemplateView):
         context = super(IndexView, self).get_context_data(**kwargs)
         hello_world.delay()
         return context
+
+class ChartView(TemplateView):
+    template_name = 'ticker/chart.html'

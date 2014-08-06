@@ -37,7 +37,18 @@ def pollAllAPI():
         for pair in pairs:
             pollAPI(pair.exchange.pk, pair.currency1.pk, pair.currency2.pk)
 
+
 @app.task
-def treturn():
-    print 'returning'
-    return "abc123"
+def createCSV(pairpk):
+    """
+    Create .csv file for a pair.
+    """
+    data = Ticker.objects.filter(pair=pairpk)
+    out = []
+    outfile = "ticker/static/ticker/csv.csv"
+    for item in reversed(data):
+        out.append('%s,%s\n' %(item.timestamp, item.price))
+    with open(outfile, 'w') as f:
+        f.write("time,price\n")
+        for item in out:
+            f.write(item)
