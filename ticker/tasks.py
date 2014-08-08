@@ -35,7 +35,7 @@ def pollAllAPI():
     for exchange in exchanges:
         pairs = Pair.objects.filter(exchange=exchange.pk)
         for pair in pairs:
-            pollAPI(pair.exchange.pk, pair.currency1.pk, pair.currency2.pk)
+            pollAPI.delay(pair.exchange.pk, pair.currency1.pk, pair.currency2.pk)
 
 
 @app.task

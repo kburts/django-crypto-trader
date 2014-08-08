@@ -48,7 +48,7 @@
       <file leaf-file-name="tasks.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ticker/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="24" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.8819444" vertical-offset="139" max-vertical-offset="1003">
+            <state line="32" column="7" selection-start="744" selection-end="744" vertical-scroll-proportion="0.46875" vertical-offset="139" max-vertical-offset="1003">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -59,7 +59,7 @@
       <file leaf-file-name="csv.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticker/static/ticker/csv.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="21" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="236351">
+            <state line="10294" column="20" selection-start="212715" selection-end="212715" vertical-scroll-proportion="0.0" vertical-offset="174675" max-vertical-offset="409802">
               <folding />
             </state>
           </provider>
@@ -143,11 +143,11 @@
         <option value="$PROJECT_DIR$/ticker/views.py" />
         <option value="$PROJECT_DIR$/ticker/urls.py" />
         <option value="$PROJECT_DIR$/django_cryptos/urls.py" />
-        <option value="$PROJECT_DIR$/ticker/tasks.py" />
         <option value="$PROJECT_DIR$/ticker/templates/ticker/chart.html" />
         <option value="$PROJECT_DIR$/ticker/static/ticker/csv.csv" />
         <option value="$PROJECT_DIR$/django_cryptos/local_settings.py" />
         <option value="$PROJECT_DIR$/django_cryptos/settings.py" />
+        <option value="$PROJECT_DIR$/ticker/tasks.py" />
       </list>
     </option>
   </component>
@@ -578,7 +578,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ticker/static/ticker/csv.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="21" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="236351">
+        <state line="10294" column="20" selection-start="212715" selection-end="212715" vertical-scroll-proportion="0.0" vertical-offset="174675" max-vertical-offset="409802">
           <folding />
         </state>
       </provider>
@@ -610,7 +610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ticker/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="24" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.8819444" vertical-offset="139" max-vertical-offset="1003">
+        <state line="32" column="7" selection-start="744" selection-end="744" vertical-scroll-proportion="0.46875" vertical-offset="139" max-vertical-offset="1003">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
