@@ -3,6 +3,12 @@ from django.db import models
 
 # Create your models here.
 class Exchange(models.Model):
+    """
+    Exchange model
+    priceJsonLoc eg.
+     {"ticker":{"high":594.42999,..."last":582.746,"buy":582.746,..."server_time":1407565240}}
+     would be: "ticker,last"
+    """
     name = models.CharField(max_length=200)
     url = models.URLField("URL: API endpoint. Replace currencies with *'s.")
     priceJsonLoc = models.CharField(
@@ -29,6 +35,9 @@ class Pair(models.Model):
         return '%s %s %s' %(self.exchange, self.currency1, self.currency2)
 
     def get_api_endpoint_url(self):
+        """
+        Return exchange's url with * replaces with the currencies.
+        """
         if not "*" in self.exchange.url:
             return self.exchange.url
         else:
@@ -37,6 +46,11 @@ class Pair(models.Model):
             return url
 
     def get_price_json_location(self):
+        """
+        convert exchange.priceJsonLoc
+        from:   "ticker,fast"
+        to:     ['ticker', 'fast']
+        """
         loc = self.exchange.priceJsonLoc
         # If it is a list of one item
         if not "," in loc:

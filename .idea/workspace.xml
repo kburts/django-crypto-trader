@@ -26,10 +26,8 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_cryptos/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="59" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1802">
-              <folding>
-                <element signature="e#325#334#0" expanded="true" />
-              </folding>
+            <state line="53" column="59" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1785">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,30 +35,19 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_cryptos/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state line="12" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tasks.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticker/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="7" selection-start="744" selection-end="744" vertical-scroll-proportion="0.46875" vertical-offset="139" max-vertical-offset="1003">
+            <state line="8" column="18" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csv.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticker/static/ticker/csv.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10294" column="20" selection-start="212715" selection-end="212715" vertical-scroll-proportion="0.0" vertical-offset="174675" max-vertical-offset="409802">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -77,7 +64,7 @@
       <file leaf-file-name="chart.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticker/templates/ticker/chart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="16" selection-start="471" selection-end="471" vertical-scroll-proportion="-4.5" vertical-offset="310" max-vertical-offset="1632">
+            <state line="27" column="11" selection-start="303" selection-end="303" vertical-scroll-proportion="-15.692307" vertical-offset="51" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -86,7 +73,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticker/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="39" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="16" column="39" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -101,13 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ticker/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="40" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1088">
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state line="51" column="34" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.46063456" vertical-offset="458" max-vertical-offset="1309">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,23 +122,23 @@
         <option value="$PROJECT_DIR$/django_cryptos/__init__.py" />
         <option value="$PROJECT_DIR$/django_cryptos/admin.py" />
         <option value="$PROJECT_DIR$/ticker/admin.py" />
-        <option value="$PROJECT_DIR$/ticker/models.py" />
         <option value="$PROJECT_DIR$/chart/models.py" />
         <option value="$PROJECT_DIR$/ticker/static/ticker/data.tsv" />
         <option value="$PROJECT_DIR$/ticker/views.py" />
         <option value="$PROJECT_DIR$/ticker/urls.py" />
         <option value="$PROJECT_DIR$/django_cryptos/urls.py" />
-        <option value="$PROJECT_DIR$/ticker/templates/ticker/chart.html" />
         <option value="$PROJECT_DIR$/ticker/static/ticker/csv.csv" />
         <option value="$PROJECT_DIR$/django_cryptos/local_settings.py" />
         <option value="$PROJECT_DIR$/django_cryptos/settings.py" />
         <option value="$PROJECT_DIR$/ticker/tasks.py" />
+        <option value="$PROJECT_DIR$/ticker/templates/ticker/chart.html" />
+        <option value="$PROJECT_DIR$/ticker/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="758" />
-    <option name="width" value="1162" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -424,19 +409,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="758" y="0" width="1162" height="1040" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24977043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24177778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29469123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -463,73 +448,121 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trader/views.py">
+    <entry file="file://$PROJECT_DIR$/django_cryptos/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+        <state line="53" column="59" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1802">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_cryptos/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="39" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="1003">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/static/ticker/csv.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10294" column="20" selection-start="212715" selection-end="212715" vertical-scroll-proportion="0.0" vertical-offset="174675" max-vertical-offset="409802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/templates/ticker/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/templates/ticker/chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="16" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="310" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="39" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="40" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_cryptos/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trader/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticker/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trader/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/django_cryptos/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/django_cryptos/celery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="17" column="33" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chart/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.09837963" vertical-offset="0" max-vertical-offset="864">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="5" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.09837963" vertical-offset="0" max-vertical-offset="864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticker/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trader/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.07683616" vertical-offset="0" max-vertical-offset="885">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.07683616" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticker/views.py">
@@ -539,25 +572,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_cryptos/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ticker/static/ticker/data.tsv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="520" column="18" selection-start="8698" selection-end="8698" vertical-scroll-proportion="0.35069445" vertical-offset="8537" max-vertical-offset="21862">
-          <folding />
-        </state>
+        <state line="520" column="18" selection-start="8698" selection-end="8698" vertical-scroll-proportion="0.35069445" vertical-offset="8537" max-vertical-offset="21862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticker/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_cryptos/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/static/ticker/csv.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10294" column="20" selection-start="212715" selection-end="212715" vertical-scroll-proportion="0.3738426" vertical-offset="174675" max-vertical-offset="409802">
           <folding />
         </state>
       </provider>
@@ -571,30 +607,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ticker/templates/ticker/chart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="16" selection-start="471" selection-end="471" vertical-scroll-proportion="-4.5" vertical-offset="310" max-vertical-offset="1632">
+        <state line="27" column="11" selection-start="303" selection-end="303" vertical-scroll-proportion="-15.692307" vertical-offset="51" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticker/static/ticker/csv.csv">
+    <entry file="file://$PROJECT_DIR$/ticker/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10294" column="20" selection-start="212715" selection-end="212715" vertical-scroll-proportion="0.0" vertical-offset="174675" max-vertical-offset="409802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticker/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="40" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1088">
+        <state line="8" column="18" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_cryptos/local_settings.py">
+    <entry file="file://$PROJECT_DIR$/django_cryptos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+        <state line="12" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
@@ -602,18 +631,14 @@
     <entry file="file://$PROJECT_DIR$/django_cryptos/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="59" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1802">
-          <folding>
-            <element signature="e#325#334#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticker/tasks.py">
+    <entry file="file://$PROJECT_DIR$/ticker/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="7" selection-start="744" selection-end="744" vertical-scroll-proportion="0.46875" vertical-offset="139" max-vertical-offset="1003">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state line="51" column="34" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.46063456" vertical-offset="458" max-vertical-offset="1309">
+          <folding />
         </state>
       </provider>
     </entry>
