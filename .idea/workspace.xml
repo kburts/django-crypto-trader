@@ -35,7 +35,7 @@
       <file leaf-file-name="tasks.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticker/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="25" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="1003">
+            <state line="37" column="50" selection-start="950" selection-end="950" vertical-scroll-proportion="-18.08" vertical-offset="177" max-vertical-offset="1003">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -64,34 +64,16 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticker/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="22" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0" vertical-offset="458" max-vertical-offset="1309">
+            <state line="45" column="22" selection-start="1516" selection-end="1516" vertical-scroll-proportion="-11.6" vertical-offset="458" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chart/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tasks.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chart/tasks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trader.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="trader.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trader/trader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="38" selection-start="930" selection-end="930" vertical-scroll-proportion="-26.52" vertical-offset="0" max-vertical-offset="1360">
+            <state line="24" column="7" selection-start="550" selection-end="550" vertical-scroll-proportion="0.49394673" vertical-offset="0" max-vertical-offset="1360">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -99,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="11" selection-start="194" selection-end="194" vertical-scroll-proportion="0.19675925" vertical-offset="0" max-vertical-offset="864">
+            <state line="16" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -652,33 +634,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chart/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trader/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chart/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticker/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="25" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="1003">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticker/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="22" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0" vertical-offset="458" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django_cryptos/local_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
@@ -710,19 +662,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trader/trader.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="38" selection-start="930" selection-end="930" vertical-scroll-proportion="-26.52" vertical-offset="0" max-vertical-offset="1360">
+        <state line="16" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="50" selection-start="950" selection-end="950" vertical-scroll-proportion="-18.08" vertical-offset="177" max-vertical-offset="1003">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/chart/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="194" selection-end="194" vertical-scroll-proportion="0.19675925" vertical-offset="0" max-vertical-offset="864">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="22" selection-start="1516" selection-end="1516" vertical-scroll-proportion="-11.6" vertical-offset="458" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trader/trader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="550" selection-end="550" vertical-scroll-proportion="0.49394673" vertical-offset="0" max-vertical-offset="1360">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
