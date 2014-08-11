@@ -88,13 +88,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trader.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="trader.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trader/trader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="43" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.9001175" vertical-offset="492" max-vertical-offset="1360">
+            <state line="39" column="38" selection-start="930" selection-end="930" vertical-scroll-proportion="-26.52" vertical-offset="0" max-vertical-offset="1360">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="11" selection-start="194" selection-end="194" vertical-scroll-proportion="0.19675925" vertical-offset="0" max-vertical-offset="864">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,6 +147,7 @@
         <option value="$PROJECT_DIR$/trader/tasks.py" />
         <option value="$PROJECT_DIR$/ticker/tasks.py" />
         <option value="$PROJECT_DIR$/trader/trader.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -702,10 +712,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trader/trader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="43" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.9001175" vertical-offset="492" max-vertical-offset="1360">
+        <state line="39" column="38" selection-start="930" selection-end="930" vertical-scroll-proportion="-26.52" vertical-offset="0" max-vertical-offset="1360">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="194" selection-end="194" vertical-scroll-proportion="0.19675925" vertical-offset="0" max-vertical-offset="864">
+          <folding />
         </state>
       </provider>
     </entry>
