@@ -13,8 +13,7 @@ def hello_world():
 def pollAPI(pair):
     """
     Get exchange data for a single Pair object.
-    exchange: exchange name
-    @param: pair Pair object
+    @param: Pair object
     """
     url = pair.get_api_endpoint_url()
     request = requests.get(url).json()
@@ -38,6 +37,7 @@ def pollAllAPI():
 def createCSV(pairpk):
     """
     Create .csv file for a pair.
+    @param: PK Value from a Pair object. eg.2
     """
     data = Ticker.objects.filter(pair=pairpk)
     out = []
@@ -74,6 +74,10 @@ def calcTickersToAdd(ticker1, ticker2):
 
 @app.task
 def fillDataHoles(pair):
+    """
+    Check wheather there are any gaps in the data.
+    @param: Pair object
+    """
     allowedDataGap = 15
     data = Ticker.objects.filter(pair=pair.pk)
     for x in xrange(len(data)-2): #all but the last one.
