@@ -1,4 +1,3 @@
-import time
 from django.db import models
 
 # Create your models here.
@@ -26,13 +25,14 @@ class Currency(models.Model):
     def __unicode__(self):
         return self.symbol
 
+
 class Pair(models.Model):
     exchange = models.ForeignKey(Exchange, related_name="exchanges")
     currency1 = models.ForeignKey(Currency, related_name="currency1")
     currency2 = models.ForeignKey(Currency, related_name="currency2")
 
     def __unicode__(self):
-        return '%s %s %s' %(self.exchange, self.currency1, self.currency2)
+        return '%s %s %s' % (self.exchange, self.currency1, self.currency2)
 
     def get_api_endpoint_url(self):
         """
@@ -54,7 +54,7 @@ class Pair(models.Model):
         loc = self.exchange.priceJsonLoc
         # If it is a list of one item
         if not "," in loc:
-            return [loc,]
+            return [loc, ]
         loc = loc.split(",")
         for n in range(len(loc)):
             loc[n] = loc[n].strip()
@@ -63,11 +63,11 @@ class Pair(models.Model):
 
 class Ticker(models.Model):
     pair = models.ForeignKey(Pair)
-    timestamp = models.CharField(max_length=14) #unix time stamp 3 decimal places
+    timestamp = models.CharField(max_length=14)  #unix time stamp 3 decimal places
     price = models.CharField(max_length=15)
 
     def __unicode__(self):
-        return '%s %s' %(self.pair, self.timestamp)
+        return '%s %s' % (self.pair, self.timestamp)
 
     class Meta:
-        ordering = ['-timestamp'] # newest first.
+        ordering = ['-timestamp']  # newest first.

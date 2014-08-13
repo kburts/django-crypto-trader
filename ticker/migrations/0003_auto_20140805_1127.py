@@ -5,7 +5,6 @@ from django.db import models, migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('ticker', '0002_auto_20140804_1554'),
     ]
@@ -18,7 +17,8 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='exchange',
             name='priceJsonLoc',
-            field=models.CharField(default='ticker,last', max_length=200, verbose_name=b"Comma seperated list of location to price in the response eg. 'ticker, last'"),
+            field=models.CharField(default='ticker,last', max_length=200,
+                                   verbose_name=b"Comma seperated list of location to price in the response eg. 'ticker, last'"),
             preserve_default=False,
         ),
         migrations.AlterField(

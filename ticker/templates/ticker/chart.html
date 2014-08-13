@@ -2,26 +2,26 @@
 <meta charset="utf-8">
 <style>
 
-body {
-  font: 10px sans-serif;
-}
+    body {
+    font: 10px sans-serif;
+    }
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
+    .axis path,
+    .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+    }
 
-.x.axis path {
-  display: none;
-}
+    .x.axis path {
+    display: none;
+    }
 
-.line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
+    .line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+    }
 
 </style>
 <body>
@@ -88,5 +88,6 @@ d3.csv("/static/ticker/csv.csv", function(error, data) {
       .attr("class", "line")
       .attr("d", line);
 });
+
 
 </script>

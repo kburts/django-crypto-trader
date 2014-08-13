@@ -1,4 +1,5 @@
 import time
+
 import requests
 
 from django_cryptos.celery import app
@@ -8,6 +9,7 @@ from .models import Pair, Ticker
 @app.task
 def hello_world():
     print('Hello world')
+
 
 @app.task
 def pollAPI(pair):
@@ -22,6 +24,7 @@ def pollAPI(pair):
         request = request.get(item)
 
     Ticker.objects.create(pair=pair, timestamp=time.time(), price=request)
+
 
 @app.task
 def pollAllAPI():
@@ -43,49 +46,48 @@ def createCSV(pairpk):
     out = []
     outfile = "ticker/static/ticker/csv.csv"
     for item in reversed(data):
-        out.append('%s,%s\n' %(item.timestamp, item.price))
+        out.append('%s,%s\n' % (item.timestamp, item.price))
     with open(outfile, 'w') as f:
         f.write("time,price\n")
         for item in out:
             f.write(item)
 
+
 @app.task
-def calcTickersToAdd(ticker1, ticker2):
+def calcTickersToAdd(ticker1, ticker2, live=False):
     """
     @param: ticker1: later ticker
     @param: ticker2: earlier ticker
     """
-    LIVE = False
     timediff = float(ticker1.timestamp) - float(ticker2.timestamp)
     numToAdd = int(timediff) / 10
     for x in xrange(1, numToAdd):
-        timestamp = float(ticker2.timestamp) + 10*x,
+        timestamp = float(ticker2.timestamp) + 10 * x,
         priceDiff = float(ticker1.price) - float(ticker2.price)
         price = float(ticker2.price) + (priceDiff / x)
-        if LIVE:
+        if live:
             Ticker.objects.create(
-                pair = ticker1.pair,
-                timestamp = timestamp,
-                price = price)
+                pair=ticker1.pair,
+                timestamp=timestamp,
+                price=price)
         else:
             print ticker1.pair, timestamp, price, ">", ticker1.price, "<>", ticker2.price, "<"
-
 
 
 @app.task
 def fillDataHoles(pair):
     """
-    Check wheather there are any gaps in the data.
+    Check whether there are any gaps in the data.
     @param: Pair object
     """
     allowedDataGap = 15
     data = Ticker.objects.filter(pair=pair.pk)
-    for x in xrange(len(data)-2): #all but the last one.
+    for x in xrange(len(data) - 2):  ##all but the last one.
         t1 = float(data[x].timestamp)
-        t2 = float(data[x+1].timestamp)
+        t2 = float(data[x + 1].timestamp)
         ## Check if later timestamp is greater than sooner one by more than 15 seconds
         if t1 > t2 + allowedDataGap:
-            calcTickersToAdd(data[x], data[x+1])
+            calcTickersToAdd(data[x], data[x + 1])
             #timediff = int((t1 - t2)/10)
             #print timediff
 
@@ -100,5 +102,5 @@ def fillAllDataHoles():
     """
     pairs = Pair.objects.all()
     for pair in pairs:
-        #fillDataHoles.delay(pair)
-        fillDataHoles(pair)
+        fillDataHoles.delay(pair)
+        #fillDataHoles(pair)
