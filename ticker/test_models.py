@@ -14,6 +14,10 @@ class ExchangeTestCase(TestCase):
         ex1 = Exchange.objects.get(name="exchange1")
         self.assertIsInstance(ex1, Exchange)
 
+    def test_exchange_unicode(self):
+        ex1 = Exchange.objects.get(name="exchange1")
+        self.assertEqual(ex1.name, str(ex1))
+
 class CurrencyTestCase(TestCase):
     def setUp(self):
         Currency.objects.get_or_create(
@@ -37,7 +41,7 @@ class PairTestCase(TestCase):
     def setUp(self):
         exchange = Exchange.objects.create(
             name="exchange1",
-            url="http://url.com",
+            url="http://url.com/*_*",
             priceJsonLoc="last"
         )
         currency1 = Currency.objects.create(
@@ -48,14 +52,27 @@ class PairTestCase(TestCase):
             name="dollars",
             symbol="usd"
         )
-        print currency1, currency2
         Pair.objects.get_or_create(
             exchange = exchange,
             currency1 = currency1,
             currency2 = currency2
         )
+        ex = Exchange.objects.get(name="exchange1")
+        self.pair = Pair.objects.get(exchange=ex)
 
     def test_pair_created(self):
-        ex = Exchange.objects.get(name="exchange1")
-        btc_usd = Pair.objects.get(exchange = ex)
+        btc_usd = self.pair
         self.assertIsInstance(btc_usd, Pair)
+
+    def test_get_api_endpoint_url(self):
+        btc_usd = self.pair
+        self.assertEqual(
+            btc_usd.get_api_endpoint_url(),
+            "http://url.com/btc_usd"
+        )
+        btc_usd.exchange.url = "http://www.example.com/"
+        self.assertEqual(btc_usd.exchange.url, btc_usd.get_api_endpoint_url())
+
+    def test_get_price_json_location(self):
+        btc_usd = self.pair
+        self.assertEqual(btc_usd.get_price_json_location(), ["last"])
