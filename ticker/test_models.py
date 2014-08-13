@@ -35,12 +35,27 @@ class CurrencyTestCase(TestCase):
 
 class PairTestCase(TestCase):
     def setUp(self):
+        exchange = Exchange.objects.create(
+            name="exchange1",
+            url="http://url.com",
+            priceJsonLoc="last"
+        )
+        currency1 = Currency.objects.create(
+            name="bitcoins",
+            symbol="btc"
+        )
+        currency2 = Currency.objects.create(
+            name="dollars",
+            symbol="usd"
+        )
+        print currency1, currency2
         Pair.objects.get_or_create(
-            exchange=Exchange.objects.get(name="exchange1"),
-            currency1=Currency.objects.get(symbol="btc"),
-            currency2=Currency.objects.get(symbol="usd")
+            exchange = exchange,
+            currency1 = currency1,
+            currency2 = currency2
         )
 
     def test_pair_created(self):
-        btc_usd = Pair.objects.get(exchange="exchange1")
+        ex = Exchange.objects.get(name="exchange1")
+        btc_usd = Pair.objects.get(exchange = ex)
         self.assertIsInstance(btc_usd, Pair)
